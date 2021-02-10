@@ -1,0 +1,7 @@
+logging:
+  config: classpath:logback/logback-prod.xml
+
+mqtt:
+  host: tcp://broker.emqx.io:1883
+  username: admin
+  password: public

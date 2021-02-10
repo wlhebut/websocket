@@ -1,0 +1,16 @@
+server:
+  port: 9090
+
+logging:
+  config: classpath:logback/logback-dev.xml
+
+spring:
+  application:
+    name: v2x
+  profiles:
+    active: dev
+
+  devtools:
+    restart:
+      exclude:  static/**,public/**
+      enabled:  true

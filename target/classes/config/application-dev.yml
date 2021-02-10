@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://172.11.1.51:3306/iotdb?useSSL=false&useUnicode=true&characterEncoding=utf8&allowMultiQueries=true
+    username: root
+    password: WLtayt$181
+
+
+
+mqtt:
+#  host: tcp://broker.emqx.io:1883
+  host: tcp://172.11.1.51:1883
+  username: admin
+  password: public
